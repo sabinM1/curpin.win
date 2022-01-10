@@ -1,7 +1,7 @@
 # Curpîn.win
 ## Geta
 
-<b>HINT: dă refresh la pagină</b>
+<b>HINT: dă [refresh](https://curpin.win/) la pagină</b>
 
 ---
 
@@ -22,7 +22,7 @@ așa și?
 
 ### pot folosi pozele pentru [...]?
 
-nu; pozele nu intră împleună cu licența MIT (care permite să faci ce vrei cu codul)
+nu; pozele nu intră împreună cu licența MIT (care permite să faci ce vrei cu codul)
 
 ### pentru cei ce n-au nicio idee despre ce este asta:
 
