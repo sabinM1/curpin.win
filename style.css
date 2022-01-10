@@ -1,0 +1,57 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#bg {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#dreapta-jos {
+  padding: 2px 2px 2px 2px;
+  background-color: yellow;
+  z-index: 4;
+  right: 15px;
+  bottom: 15px;
+  position: absolute;
+}
+
+#text-dreapta-jos {
+  font-weight: bold;
+  color: #6ee2ff;
+  font-family: "Liberation Sans", Tahoma, Verdana, sans-serif;
+  text-decoration: none;
+  text-underline-offset: 1px;
+  overflow-wrap: break-word;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#dreapta-jos {
+  font-size: 30px;
+}
+
+@media all and (max-device-width: 720px) {
+  #dreapta-jos {
+    font-size: 28px;
+  }
+}
+
+@media all and (max-device-width: 640px) {
+  #dreapta-jos {
+    font-size: 24px;
+  }
+}
+
+@media all and (max-device-width: 320px) {
+  #dreapta-jos {
+    font-size: 22px;
+  }
+}

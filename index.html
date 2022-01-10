@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<script type="text/javascript">
+  var imageURLs = [
+    "./img/1.jpg", "./img/2.jpg", "./img/3.jpg"
+  ];
+
+  function getImageTag() {
+    var img = '<img src=\"';
+    var randomIndex = Math.floor(Math.random() * imageURLs.length);
+    img += imageURLs[randomIndex];
+    img += '\" id="bg" alt=\"Foarte tare\"/>';
+    return img;
+  }
+</script>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Geta</title>
+  <meta name="title" content="Geta">
+  <meta name="description" content="curpîn?!?!?!?">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/img/favicon.jpg" type="image/gif">
+</head>
+
+<body>
+  <img src="./img/fallback.png" alt="" />
+  <script type="text/javascript">
+    document.write(getImageTag());
+  </script>
+  <footer id="dreapta-jos">
+    <a id="text-dreapta-jos" href="https://github.com/sabinM1/curpin.win" target="_blank" rel="noopener noreferrer"> despre </a>
+  </footer>
+</body>
+
+</html>
