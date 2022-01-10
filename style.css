@@ -13,18 +13,25 @@ html, body {
   width: 100%;
 }
 
-#dreapta-jos {
+.dreapta {
   padding: 2px 2px 2px 2px;
   background-color: yellow;
   z-index: 4;
   right: 15px;
-  bottom: 15px;
   position: absolute;
 }
 
-#text-dreapta-jos {
+.fsus{
+  top: 15px;
+}
+
+.fjos{
+  bottom: 15px;
+}
+
+.text-dreapta {
   font-weight: bold;
-  color: #6ee2ff;
+  color: #0099ff;
   font-family: "Liberation Sans", Tahoma, Verdana, sans-serif;
   text-decoration: none;
   text-underline-offset: 1px;
@@ -34,24 +41,24 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#dreapta-jos {
-  font-size: 30px;
+.dreapta {
+  font-size: 26px;
 }
 
 @media all and (max-device-width: 720px) {
-  #dreapta-jos {
-    font-size: 28px;
-  }
-}
-
-@media all and (max-device-width: 640px) {
-  #dreapta-jos {
+  .dreapta {
     font-size: 24px;
   }
 }
 
-@media all and (max-device-width: 320px) {
-  #dreapta-jos {
+@media all and (max-device-width: 640px) {
+  .dreapta {
     font-size: 22px;
+  }
+}
+
+@media all and (max-device-width: 320px) {
+  .dreapta {
+    font-size: 20px;
   }
 }
