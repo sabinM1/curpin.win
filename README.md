@@ -1,7 +1,8 @@
 # Curpîn.win
 ## Geta
 
-<b>HINT: dă [refresh](https://curpin.win/) la pagină</b>
+<b>HINT</b>: dă [refresh](https://curpin.win/) la pagină pentru o imagine nouă<br>
+<b>HINT</b>: vezi și https://github.com/sabinM1/pac-geta
 
 ---
 
