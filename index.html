@@ -35,12 +35,16 @@
   <img src="./img/fallback.png" alt="" />
   <script type="text/javascript">
     document.write(getImageTag());
+    function showlma() {
+      document.getElementById("panel").style.display = "block";
+    }
   </script>
+  <img id="panel" class="centerlma" src="./img/lma.gif" alt="lma" loading="eager"/>
   <footer class="dreapta fjos">
     <a class="text-dreapta" href="https://github.com/sabinM1/curpin.win" target="_blank" rel="noopener noreferrer">despre</a>
   </footer>
   <footer class="dreapta fsus">
-    <a class="text-dreapta">&nbspvizitat</a><a href="https://pac.curpin.win" rel="noopener noreferrer"><img src="./img/pacman_3r.png" style="max-width: 100%; max-height: 100%" alt="o" /></a><a class="text-dreapta">ri unici:</a>
+    <a class="text-dreapta" onclick="showlma()">&nbspvizitat</a><a href="https://pac.curpin.win" rel="noopener noreferrer"><img src="./img/pacman_3r.png" style="max-width: 100%; max-height: 100%" alt="o" /></a><a class="text-dreapta">ri unici:</a>
     <a href="" rel="noopener noreferrer" class="text-dreapta"><img src="https://sabinm.eu.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fcurpin.win" alt="Hits"></a>&nbsp
   </footer>
 </body>

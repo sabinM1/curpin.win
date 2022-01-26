@@ -4,6 +4,12 @@ html, body {
   overflow: hidden;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #bg {
   z-index: 3;
   position: fixed;
@@ -13,12 +19,25 @@ html, body {
   width: 100%;
 }
 
+#panel {
+  display: none;
+}
+
 .dreapta {
   padding: 2px 2px 2px 2px;
   background-color: yellow;
   z-index: 4;
   right: 15px;
   position: absolute;
+}
+
+.centerlma {
+  position: absolute;
+  z-index: 5;
+  margin-left: -30%;
+  left: 50%;
+  width: 60%;
+  border: solid 2px yellow;
 }
 
 .fsus{
